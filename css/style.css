@@ -44,6 +44,10 @@ p {
   height: 50px;
   padding: 1em;
   margin-bottom: 0px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
 }
 
 .menu {
@@ -126,8 +130,6 @@ p {
   font-size: 15px;
   text-align: center;
   display: none;
-
-  z-index: 1;
 }
 
 
@@ -242,7 +244,6 @@ li.submenu-container:hover > .submenu {
     width: 100%;
     color: white;
     background-color: var(--background-color);
-    z-index: 1;
   }
 
 
@@ -346,7 +347,7 @@ li.submenu-container:hover > .submenu {
 }
 
 .prev-btn, .next-btn{
-  z-index: 999;
+  z-index: 1;
   font-size: 2em;
   background: rgba(255, 255, 255, 0.3);
   padding: 300px 0;
@@ -364,14 +365,14 @@ li.submenu-container:hover > .submenu {
 }
 
 .navigation-visibility{
-  z-index: 999;
+  z-index: 1;
   display: flex;
   justify-content: center;
   cursor: pointer;
 }
 
 .navigation-visibility .slide-icon{
-  z-index: 999;
+  z-index: 1;
   background: rgba(255, 255, 255, 0.5);
   width: 20px;
   height: 10px;
