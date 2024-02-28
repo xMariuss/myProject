@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+
+    <meta name="google, web, site, portfolio" content="html, css, javascript, programming, front, end,">
+    <meta name="web page dedicated to employers" content="web page made using html, css, javascript reflecting skills gained trough link academy and university">
+    <meta name="author" content="Bogdan Marius">
+    <meta http-equiv="refresh" content="30">
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./assets/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="256x256" href="./assets/favicon/android-chrome-256x256.png">
+    <link rel="icon" type="image/png" sizes="150x150" href="./assets/favicon/mstile-150x150.png">
+    <link rel="icon" type="image/x-icon" href="./assets/favicon/favicon.ico">
+    <link rel="manifest" href="./assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <!-- Home Menu -->
+    <section class="top-nav">
+        <div>
+            <a href="#">Bogdan Marius</a> 
+        </div>
+          <input id="menu-toggle" type="checkbox" />
+          <label class='menu-button-container' for="menu-toggle">
+          <div class='menu-button'></div>
+        </label>
+          <ul class="menu">
+            <li><a href="#">Acasa</a></li>
+            <li class="submenu-container"><a href="./about.html">Despre</a>
+              <ul class="submenu">
+                <li><a href="#">Munca Curenta</a></li>
+                <li><a href="#">Munca Anterioara</a></li>
+                <li class="angajare"><a href="#">Angajare</a></li>
+              </ul>
+            </li>
+            <li class="submenu-element"><a href="#">Munca Curenta</a></li>
+            <li class="submenu-element"><a href="#">Munca Anterioara</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+    </section>
+    <!-- Home Menu End-->
+
+    <!-- Home Slider -->
+    <section id="slider-container">
+      <div class="slider">
+        <div class="slide active">
+          <img src="./assets/img/high-dive-pov.png" alt="">
+          <div class="info">
+            <h2>Asterix, Paris</h2>
+            <code>.jump { </br>
+            <span>float: none;</span> </br>
+            }</code>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="./assets/img/jet-ski.JPG" alt="">
+          <div class="info">
+            <h2>Les Avenieres, France</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="./assets/img/fire-dive.jpg" alt="">
+          <div class="info">
+            <h2>Europa-Park, Germany</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+        <div class="navigation">
+          <i class="fas fa-chevron-left prev-btn"><img src="./assets/img/left-arrow.png" alt="" height="30px"></i>
+          <i class="fas fa-chevron-right next-btn"><img src="./assets/img/right-arrow.png" alt="" height="30px"></i>
+        </div>
+        <div class="navigation-visibility">
+          <div class="slide-icon active"></div>
+          <div class="slide-icon"></div>
+          <div class="slide-icon"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Home Slider End-->
+
+    <!-- Home Hello -->
+    <section id="home-hello-section">
+      <h2>Salut, Sunt Marius</h2>
+      <div class="hello-card-container">
+        
+        <div class="hello-card hello-card1">
+          <img src="./assets/img/presentation.JPG" alt="">
+          <div class="hello-card-content">
+            <h3>Fost Saritor In Apa</h3>
+            <ul>
+              <li>Campion multiplu / ABSOLUT national.</li>
+              <li>Artist / Team Leader</li>
+                <ul>
+                  <li>Sokol</li>
+                  <li>Vertical Limit</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <a href="#">Descopera mai mult...</a>
+        </div>
+
+        <div class="hello-card hello-card2">
+          <img src="./assets/img/study.gif" alt="">
+          <div class="hello-card-content">
+            <h3>Student in Prezent</h3>
+            <ul>
+              <li>Facultatea de Informatica - Universitatea Titu Maiorescu</li>
+              <li>Link Academy</li>
+                <ul>
+                  <li>Front-end Development</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <a href="#">Descopera mai mult...</a>
+        </div>
+
+        <div class="hello-card hello-card3">
+          <img src="./assets/img/programming.gif" alt="">
+          <div class="hello-card-content">
+            <h3>Programator in Viitor</h3>
+            <p>Sunt convins ca prin munca, devotament si perseverenta voi deveni un programator de succes!</p>
+          </div>
+          <a href="#">Descopera mai mult...</a>
+        </div>
+      </section>
+    <!-- Home Hello End -->
+
+    <!-- Home About -->
+    <section id="home-about-section">
+      <h2>Despre mine</h2>
+      <div class="home-about-container">
+        <div class="home-about-section1">
+          <h3>Foarte entuziasmat sa</h3>
+          <p>- lucrez intr-o echipa de profesionisti unde ma pot dezvolta atat profesional cat si personal.</p>
+          <p>- ajut alte persoane in contextul in care detin informatiile / cunostintele necesare.</p>
+          <p>- imi petrec viitorul in cadrul une-i companii in care imi pot realiza visele.</p>
+          <p>- comunic ideile personale asupra proiectelor.</p>
+          <p>- progresez intr-un mod moderat dar corect.</p>
+          <p>- gasesc solutii la problemele diverse.</p>
+          <p>- ma dedic lucrului in echipa.</p>
+          <p>- ofer tot ceea ce am mai bun.</p>
+          <p>- comunic si sa cer informatii.</p>
+        </div>
+
+        <div class="home-about-section2">
+          <h3>Imi doresc sa</h3>
+          <p>- devin un programator de succes.</p>
+          <p>- am incredere in sine ca pot duce la capat un intreg proiect.</p>
+          <p>- fac parte dintr-o comunitate care pune accentul pe viziuni similare.</p>
+          <p>- pot scrie cod fara a ma bloca datorita lipsei de cunostinte in domeniu.</p>
+        </div>
+
+        <div class="home-about-section3">
+          <h3>Imi plac / e</h3>
+          <span>
+            <ul class="home-about-list1">
+              <li>Sportul</li>
+              <li>Natura</li>
+              <li>Peisajul</li>
+              <li>Muzica</li>
+            </ul>
+            <ul class="home-about-list2">
+              <li>Ordinea</li>
+              <li>Seriale / Filme</li>
+              <li>Masinile</li>
+              <li>Motocicletele</li>
+            </ul>
+            <ul class="home-about-list3">
+              <li>Ajut persoane / animale</li>
+              <li>Programarea</li>
+              <li>Tehnologia</li>
+              <li>Progresarea</li>
+            </ul>
+          </span>
+        </div>
+      </div>
+      <div class="home-about-btn">
+        <a href="#">Afla mai multe...</a>
+      </div>
+    </section>
+    <!-- Home About End-->
+
+    <!-- Home Page Experience -->
+
+    <section id="home-experience-section">
+      <h2>Experienta</h2>
+      <div class="home-experience-container">
+        <div class="home-experience-card1">
+          <h3>Sokol / Vertical Limit</h3>
+          <ul>
+            <li>Team Leader</li>
+            <li>Management</li>
+            <li>Project management</li>
+            <li>Finalizarea task-urilor la termen</li>
+            <li>Planificarea zilnica a tabelei de informatii</li>
+            <li>Comunicarea frecventa cu clientii companiei</li>
+            <li>Organizarea moderata a team meeting-urilor</li>
+            <li>Verificari zilnice structuriale pentru siguranta echipei</li>
+          </ul>
+          <p>Sokol a fost o companie de Enterntainment aceasta activand din 2010 pana in 2021 cand 
+            management-ul companiei s-a schimbat odata cu numele acesteia devenind <em><a href="#">Vertical Limit<span class="vertical-dot1">.</span> <span class="vertical-dot2">.</span> <span class="vertical-dot3">.</span></a></em></p>
+        </div>
+
+        <div class="home-experience-card2">
+          <h3>Dvs. in legatura cu acest site</h3>
+          <div class="website-experience-container1">
+            <div class="website-experience-slide1">
+              <div class="images">
+                <img class="experience-feedback-faces sad-face" src="./assets/img/sad-face.png" alt="">
+                <img class="experience-feedback-faces straight-face" src="./assets/img/straight-face.png" alt="">
+                <img class="experience-feedback-faces happy-face" src="./assets/img/happy-face.png" alt="">
+              </div>
+              
+              <div class="questions">
+                <h3>Multumesc pentru feedback!</h3>
+                <form action="#">
+                  <label for="feedback">Cum pot imbunatati acest site?</label>
+                  <textarea id="feedback" name="feedback" placeholder="Scrie aici..."></textarea>
+                  <input type="submit" value="Trimite">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Home Page Experience End -->
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
+
+
